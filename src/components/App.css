@@ -1,0 +1,107 @@
+/* .main {
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+}
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+} */
+
+
+/* Apply a CSS reset to remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a reset to remove list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Define a CSS variable for reuse */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+}
+
+/* Style the main content container */
+.main {
+  margin-top: 2em;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* Center content horizontally and vertically */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style search input */
+.ui.search input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect to search input */
+.ui.search input:hover {
+  border-color: var(--secondary-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Style list items */
+.item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Add hover effect to list items */
+.item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Style icons */
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+/* Add hover effect to icons */
+i.icon:hover {
+  color: var(--secondary-color);
+}
